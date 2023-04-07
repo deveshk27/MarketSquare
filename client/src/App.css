@@ -1,0 +1,12 @@
+@import '~bootstrap/dist/css/bootstrap.css';
+.register{
+    /* display :flex; */
+    text-align: center;
+    /* flex-direction: column; */
+}
+.title{
+    text-align: center;
+}
+.consultancy{
+    text-align: center;
+}
