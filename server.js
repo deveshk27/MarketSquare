@@ -4,12 +4,17 @@ import dotenv from "dotenv";
 import morgan from "morgan";
 import connectDB from "./config/db.js";
 import authRoutes from "./routes/authRoute.js";
-import cors from 'cors'
+import categoryRoutes from "./routes/categoryRoutes.js";
+import cors from "cors";
+// import cate
+// import
 // import bodyParser from 'body-parser';
 // import { Configuration, OpenAIApi } from 'openai';
 
 //configure env
-dotenv.config("C:\Users\MOHIT GUPTA\Desktop\hackfest23\ecommerce-app-2023\routes\.env");
+dotenv.config(
+  "C:UsersMOHIT GUPTADesktophackfest23ecommerce-app-2023\routes.env"
+);
 
 //databse config
 connectDB();
@@ -28,10 +33,9 @@ app.use(cors());
 app.use(express.json());
 app.use(morgan("dev"));
 
-
 //routes
 app.use("/api/v1/auth", authRoutes);
-
+app.use("/api/v1/category", categoryRoutes);
 
 //rest api
 app.get("/", (req, res) => {
