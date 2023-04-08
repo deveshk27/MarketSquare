@@ -21,8 +21,20 @@ h4 {
 }
 
 /* Style for reset filters button */
-button.btn.btn-danger {
-  margin-top: 20px;
+.d-flex.flex-column button.btn.btn-danger {
+  margin-top: 1px;
+  font-size: 10px;
+  padding: 8px 12px;
+  background-color: #000000;
+  border: none;
+  border-radius: 4px;
+  margin-left: 45px;
+  color: #fbfcff;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.d-flex.flex-column button.btn.btn-danger:hover {
+  background-color: #c82333;
 }
 
 /* Style for product card */
@@ -69,8 +81,6 @@ input[type="text"] {
   border: 1px solid #ccc;
   padding: 10px;
 }
-
-
 
 /* Change the background color of the button on hover */
 button:hover {
