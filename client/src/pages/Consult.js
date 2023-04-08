@@ -53,7 +53,7 @@ const Consult = () => {
                   variant="secondary"
                   size='lg'
                   onClick={handleButtonClicked}
-                  className="mx-auto d-block my-4"
+                  className="mx-auto d-block my-4 rehnede Askbutton"
                 >
                   Ask
                 </Button>

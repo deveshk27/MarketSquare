@@ -126,7 +126,7 @@
 }
 
 .btn{
-  width: 30%;
+  width: 22%;
 }
 
 .product-link {
@@ -141,6 +141,7 @@
 .rehnede{
   background-color: black;
   color: white;
+  border-color: grey;
 }
 
 .consult-background {
@@ -174,4 +175,56 @@
   border-radius: 5px;
   resize: none;
   font-size: 16px;
+}
+
+/* .card-body {
+  background: linear-gradient(180deg, #ffffff, #cbcbcb) !important;
+} */
+
+.btn-warning {
+  --bs-btn-color: #000;
+  --bs-btn-bg: #ffffff;
+  --bs-btn-border-color: #000000;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #ffffff;
+  --bs-btn-hover-border-color: #000000;
+}
+
+
+
+
+/* .list-group-item{
+  background-color: grey;
+} */
+
+.bt-secondary.moredetails{
+  background-color: #000; ;
+  color: white;
+}
+
+.list-group-item.active{
+  color: #000;
+  background-color: rgb(112, 112, 112);
+  border-color: grey;
+}
+
+.Managecategory{
+  margin-top: 20px;
+}
+
+.btn-danger{
+  width: 100% ;
+  margin-top: 5px;
+}
+
+.resetting{
+  width: 50% !important ;
+}
+
+.Askbutton{
+  width: 95% !important ;
+}
+
+.Loading{
+  margin-left: -1%;
 }

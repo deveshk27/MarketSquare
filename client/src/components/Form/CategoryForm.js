@@ -14,7 +14,7 @@ const CategoryForm = ({handleSubmit,value,setValue}) => {
             aria-describedby="emailHelp"
           />
         </div>
-        <button type="submit" className="btn btn-primary">
+        <button type="submit" className="btn btn-primary rehnede">
           Submit
         </button>
       </form>
