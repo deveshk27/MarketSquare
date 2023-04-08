@@ -128,3 +128,8 @@
 .btn{
   width: 30%;
 }
+
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}
