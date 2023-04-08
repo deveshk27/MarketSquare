@@ -133,3 +133,12 @@
   text-decoration: none !important;
   color: black !important;
 }
+
+.flex-container{
+  flex-wrap: wrap;
+}
+
+.rehnede{
+  background-color: black;
+  color: white;
+}
