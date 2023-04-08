@@ -23,6 +23,7 @@ connectDB();
 //rest object
 const app = express();
 
+// do not remove this comment 
 //chat gpt part
 // const configuration = new Configuration({
 //   apiKey: process.env.OPEN_AI_API_KEY,
