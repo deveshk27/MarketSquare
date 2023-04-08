@@ -24,7 +24,7 @@
 .nav-link {
   font-weight: 300 !important;
   color: white !important ;
-  
+
 }
 
 .active {
@@ -110,4 +110,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* =======================================*/
+/* register page */
+
+.form-label{
+  width: 200 px;
+  display: block;
+  text-align: left;
+}
+
+.form-control{
+  width: 300px;
+}
+
+.btn{
+  width: 300px;
 }

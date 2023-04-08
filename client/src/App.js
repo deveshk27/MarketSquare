@@ -9,7 +9,7 @@ import { Toaster } from "react-hot-toast";
 import Login from "./pages/auth/Login.js";
 import Consult from "./pages/Consult.js";
 import ForgotPassword from "./pages/auth/ForgotPassword.js";
-import Dashboard from "./pages/user/Dashboard.js";
+import Dashboard from "./pages/user/dashboard.js";
 import PrivateRoute from "./components/routes/private.js";
 import AdminRoute from "./components/routes/adminRoutes.js";
 import AdminDashboard from "./pages/admin/AdminDashboard.js";
