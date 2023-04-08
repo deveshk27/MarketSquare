@@ -6,7 +6,18 @@
 }
 .title{
     text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
 }
 .consultancy{
     text-align: center;
+}
+
+.form-control{
+    width: 1713px;
+    margin-bottom: 20px;
+}
+
+.headers{
+    margin-left: 10px;
 }

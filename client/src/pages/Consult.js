@@ -21,15 +21,15 @@ const Consult = () => {
 
             <Form className="consultancy">
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                    <Form.Label>Question</Form.Label>
+                    <Form.Label className="headers">Question</Form.Label>
                     <Form.Control type="text" placeholder="Enter your question here" value={prompt} onChange={(data)=>setPrompt(data.target.value)}  required />
                 </Form.Group>
-                <Button onClick={handleButtonClicked}>
+                <Button onClick={handleButtonClicked} variant="secondary" size='lg'>
                     Ask
                 </Button>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                    <Form.Label>Answer</Form.Label>
-                    <Form.Control as="textarea" rows={3} placeholder={response} />
+                    <Form.Label className="headers">Answer</Form.Label>
+                    <Form.Control as="textarea" rows={10} placeholder={response} />
                 </Form.Group>
             </Form>
         </Layout>
