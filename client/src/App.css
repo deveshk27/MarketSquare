@@ -14,9 +14,10 @@
 }
 
 .form-control12{
-    width: 1683px;
+    width: 95%;
     margin-bottom: 20px;
     margin-left: 23px;
+    display: flex;
 }
 
 .headers{
