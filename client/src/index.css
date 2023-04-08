@@ -142,3 +142,36 @@
   background-color: black;
   color: white;
 }
+
+.consult-background {
+  background: url("https://images.unsplash.com/photo-1523275335684-fd3caa7c48b9");
+  background-size: cover;
+  background-position: center;
+  padding: 60px 0;
+}
+
+.consultancy {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.headers {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.form-control12 {
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 5px;
+}
+
+.answer-field {
+  background-color: #f5f5f5;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+  font-size: 16px;
+}
