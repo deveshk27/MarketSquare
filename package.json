@@ -1,7 +1,7 @@
 {
   "name": "marketsquare",
   "version": "1.0.0",
-  "description": "ecommerce rest api",
+  "description": "marketsquare rest api",
   "main": "server.js",
   "type": "module",
   "scripts": {
@@ -11,7 +11,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
-  "author": "Techinfoyt",
+  "author": "codechargers",
   "license": "MIT",
   "dependencies": {
     "bcrypt": "^5.1.0",
