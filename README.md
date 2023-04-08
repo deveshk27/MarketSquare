@@ -28,3 +28,4 @@
 - Online store for pet-related products and supplies
 - Platform to report animal welfare issues
 - Multi-language support for global accessibility
+- Secured payment gateway for users using an online service 
