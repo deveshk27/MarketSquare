@@ -2,8 +2,8 @@
 
 
 #Problem statement:
-*People are often unaware of basic accommodation practices and care needed for pets and domestic animals
-*Health and wellness problems for pets are disregarded
+*People are often unaware of basic accommodation practices and care needed for pets and domestic animals*
+*Health and wellness problems for pets are disregarded*
 *Lack of online platforms for support
 *Reach of veterinary support is limited
 *Indirect transmission of disease is possible
