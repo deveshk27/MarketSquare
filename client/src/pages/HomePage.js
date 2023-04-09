@@ -115,7 +115,7 @@ const HomePage = () => {
     <Layout title={"ALl Products - Best offers "}>
       <div className="container-fluid row mt-3">
         <div className="col-md-2">
-          <h4 className="text-center">Filter By Category</h4>
+          <h4 className="text-left">Filter By Category</h4>
           <div className="d-flex flex-column">
             {categories?.map((c) => (
               <Checkbox
@@ -127,7 +127,7 @@ const HomePage = () => {
             ))}
           </div>
           {/* price filter */}
-          <h4 className="text-center mt-4">Filter By Price</h4>
+          <h4 className="text-left mt-4">Filter By Price</h4>
           <div className="d-flex flex-column">
             <Radio.Group onChange={(e) => setRadio(e.target.value)}>
               {Prices?.map((p) => (
@@ -139,10 +139,10 @@ const HomePage = () => {
           </div>
           <div className="d-flex flex-column">
             <button
-              className="btn btn-danger"
+              className="btn btn-danger resetting"
               onClick={() => window.location.reload()}
             >
-              RESET FILTERS
+              RESET
             </button>
           </div>
         </div>
@@ -180,7 +180,7 @@ const HomePage = () => {
           <div className="m-2 p-3">
             {products && products.length < total && (
               <button
-                className="btn btn-warning"
+                className="btn btn-warning rehnede Loading"
                 onClick={(e) => {
                   e.preventDefault();
                   setPage(page + 1);

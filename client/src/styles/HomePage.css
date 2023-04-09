@@ -1,0 +1,89 @@
+/* Style for container */
+.container-fluid {
+  padding: 0 15px;
+}
+
+/* Style for filter section */
+.col-md-2 {
+  margin-right: 20px;
+  padding-right: 20px;
+  border-right: 1px solid #ccc;
+}
+
+/* Style for filter section header */
+h4 {
+  margin-top: 0;
+}
+
+/* Style for price filter section */
+.d-flex.flex-column + .d-flex.flex-column {
+  margin-top: 20px;
+}
+
+/* Style for reset filters button */
+.d-flex.flex-column button.btn.btn-danger {
+  margin-top: 1px;
+  font-size: 10px;
+  padding: 8px 12px;
+  background-color: #000000;
+  border: none;
+  border-radius: 4px;
+  margin-left: 45px;
+  color: #fbfcff;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.d-flex.flex-column button.btn.btn-danger:hover {
+  background-color: #c82333;
+}
+
+/* Style for product card */
+.card {
+  width: 18rem;
+  margin-bottom: 20px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  margin-bottom: 10px;
+  flex-grow: 1;
+}
+
+.btn-primary,
+.btn-secondary {
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* Center the button horizontally */
+button {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Add some margin between the button and the input field */
+input[type="text"] {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Change the background color of the button on hover */
+button:hover {
+  background-color: #6fbced;
+  color: #fff;
+}

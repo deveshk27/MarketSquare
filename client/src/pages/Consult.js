@@ -10,7 +10,16 @@ const Consult = () => {
   const [prompt, setPrompt] = useState("");
   const [response, setResponse] = useState("");
   const navigate = useNavigate();
+  const [prompt, setPrompt] = useState("");
+  const [response, setResponse] = useState("");
+  const navigate = useNavigate();
 
+  const handleKeyDown = (event) => {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      handleButtonClicked();
+    }
+  };
   const handleKeyDown = (event) => {
     if (event.key === "Enter") {
       event.preventDefault();
