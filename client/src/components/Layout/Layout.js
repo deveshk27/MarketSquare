@@ -24,6 +24,7 @@ const Layout = ({ children, title, description, keywords, author }) => {
   );
 };
 
+// hhh
 Layout.defaultProps = {
   title: "MarketSquare",
   description: "Hackfest 2k23 project",
